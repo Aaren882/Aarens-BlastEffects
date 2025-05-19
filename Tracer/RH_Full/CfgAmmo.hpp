@@ -1,0 +1,12 @@
+SetTracerColor(RH_556x45_B_Mk262, B_556x45_Ball, "TracerTR");
+SetTracerColor(RH_556x45_B_Mk318, B_556x45_Ball, "TracerTR");
+SetTracerColor(RH_556x45_B_M855A1, B_556x45_Ball, "TracerTR");
+SetTracerColor(RH_762x35_B_FMJ, B_65x39_Caseless, "TracerTR");
+SetTracerColor(RH_762x35_B_Match, B_65x39_Caseless, "TracerTR");
+SetTracerColor(RH_762x35_B_MSB, B_65x39_Caseless, "TracerTR");
+SetTracerColor(RH_762x51_B_M80A1, B_762x51_Ball, "TracerTR");
+SetTracerColor(RH_9x19_B_M822, B_9x21_Ball, "TracerTW");
+SetTracerColor(RH_9x19_B_HP, B_9x21_Ball, "TracerTW");
+SetTracerColor(RH_9x19_B_HPSB, B_9x21_Ball, "TracerTW");
+SetTracerColor(RH_762x51_B_LFMJSB, B_762x51_Ball, "TracerTR");
+SetTracerColor(RH_762x51_B_Mk316LR, B_762x51_Ball, "TracerTR");
