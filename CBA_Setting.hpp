@@ -3,7 +3,7 @@
 	"tracer_illuminate_list", "LIST",
 	["Enable Tracer Ilumination"],
  	"Aaren's Blast Effect",
- 	[["-","_10","_50",""], ["Disabled","10%","50%","100%"], 3]
+ 	[["-","_10","_20","_30","_40","_50",""], ["Disabled","10%","20%","30%","40%","50%","100%"], 6]
 ] call CBA_fnc_addSetting;
 
 [
