@@ -16,7 +16,7 @@ class CfgAmmo
 		simulation = "shotCM";
 		muzzleEffect = "ASBE_fnc_effectFiredSmokeLauncher";
 		explosionEffects = "EmptyEffect";
-		weaponLockSystem = "1 + 2 + 4 + 16";
+		weaponLockSystem = 1 + 2 + 4 + 16;
 	};
 	
 	//30mm APFSDS

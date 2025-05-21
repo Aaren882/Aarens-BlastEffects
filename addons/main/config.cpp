@@ -29,7 +29,7 @@ class Extended_PreInit_EventHandlers
 {
 	class ASBE_EH
 	{
-		init = "call compile preprocessFileLineNumbers 'MG8\ASBE\XEH_preInit.sqf'";
+		init = "call compile preprocessFileLineNumbers 'z\ASBE\addons\main\XEH_preInit.sqf'";
 	};
 };
 class DefaultEventHandlers;
@@ -37,7 +37,7 @@ class Extended_PostInit_EventHandlers
 {
 	class ASBE_EH
 	{
-		init = "call compile preprocessFileLineNumbers 'MG8\ASBE\XEH_postInit.sqf'";
+		init = "call compile preprocessFileLineNumbers 'z\ASBE\addons\main\XEH_postInit.sqf'";
 	};
 };
 

@@ -2,7 +2,7 @@ params ["_unit", "_weapon", "_muzzle", "", "_ammo", "_magazine", "", ""];
 private ["_cache","_key","_count","_magCfg","_tracersEvery","_lastRoundsTracer","_weaponCfg","_mult"];
 
 _cache = localNamespace getVariable "ASBE_cache";
-_key = format ["%1-%2",_magazine,_weapon];
+_key = [_magazine,_weapon] joinString "-";
 
 if !(_key in _cache) then {
   private ["_Cfg","_model","_index","_color","_caliber","_ShowInIR","_intensity","_tracersEvery","_lastRoundsTracer","_mult"];
@@ -16,11 +16,11 @@ if !(_key in _cache) then {
 
   _index = _model find "\tracer_";
 
-  #if __has_include("\BCTracers_Edited\config.bin")
+  //- Blastcore Tracers A3 - FoxFort Edit
     if (_index < 0) then {
       _index = _model find "BCTracers_Edited";
     };
-  #endif
+  
   _color = toLowerANSI ([
     _model select [_index + 1],
     ""
