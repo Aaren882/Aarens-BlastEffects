@@ -350,6 +350,379 @@ class CfgVehicles
 		};
 	};
 	
+
+	//-40%
+	class TracerR_40: TracerR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=1200;
+			};
+		};
+	};
+	class TracerG_40: TracerG
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=1200;
+			};
+		};
+	};
+	class TracerY_40: TracerY_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=1200;
+			};
+		};
+	};
+	class TracerW_40: TracerW_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=1200;
+			};
+		};
+	};
+	//-Trooper
+	class TracerTR_40: TracerTR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=320;
+			};
+		};
+	};
+	class TracerTG_40: TracerTG_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=320;
+			};
+		};
+	};
+	class TracerTY_40: TracerTY_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=320;
+			};
+		};
+	};
+	class TracerTW_40: TracerTW_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=320;
+			};
+		};
+	};
+	//-IR
+	class TracerR_IR_40: TracerR_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=320;
+			};
+		};
+	};
+	class TracerG_IR_40: TracerG_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=320;
+			};
+		};
+	};
+	class TracerY_IR_40: TracerY_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=320;
+			};
+		};
+	};
+	class TracerW_IR_40: TracerW_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=320;
+			};
+		};
+	};
+
+	//-30%
+	class TracerR_30: TracerR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=900;
+			};
+		};
+	};
+	class TracerG_30: TracerG
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=900;
+			};
+		};
+	};
+	class TracerY_30: TracerY_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=900;
+			};
+		};
+	};
+	class TracerW_30: TracerW_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=900;
+			};
+		};
+	};
+	//-Trooper
+	class TracerTR_30: TracerTR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=240;
+			};
+		};
+	};
+	class TracerTG_30: TracerTG_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=240;
+			};
+		};
+	};
+	class TracerTY_30: TracerTY_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=240;
+			};
+		};
+	};
+	class TracerTW_30: TracerTW_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=240;
+			};
+		};
+	};
+	//-IR
+	class TracerR_IR_30: TracerR_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=240;
+			};
+		};
+	};
+	class TracerG_IR_30: TracerG_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=240;
+			};
+		};
+	};
+	class TracerY_IR_30: TracerY_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=240;
+			};
+		};
+	};
+	class TracerW_IR_30: TracerW_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=240;
+			};
+		};
+	};
+
+	//-20%
+	class TracerR_20: TracerR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=600;
+			};
+		};
+	};
+	class TracerG_20: TracerG
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=600;
+			};
+		};
+	};
+	class TracerY_20: TracerY_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=600;
+			};
+		};
+	};
+	class TracerW_20: TracerW_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=600;
+			};
+		};
+	};
+	//-Trooper
+	class TracerTR_20: TracerTR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=160;
+			};
+		};
+	};
+	class TracerTG_20: TracerTG_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=160;
+			};
+		};
+	};
+	class TracerTY_20: TracerTY_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=160;
+			};
+		};
+	};
+	class TracerTW_20: TracerTW_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=160;
+			};
+		};
+	};
+	//-IR
+	class TracerR_IR_20: TracerR_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=160;
+			};
+		};
+	};
+	class TracerG_IR_20: TracerG_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=160;
+			};
+		};
+	};
+	class TracerY_IR_20: TracerY_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=160;
+			};
+		};
+	};
+	class TracerW_IR_20: TracerW_IR_50
+	{
+		class Reflectors: Reflectors
+		{
+			class Light_1: Light_1
+			{
+				intensity=160;
+			};
+		};
+	};
+
 	//-10%
 	class TracerR_10: TracerR_50
 	{
