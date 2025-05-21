@@ -848,6 +848,7 @@ class CfgVehicles
 	};
 	
 	//FIR
+	#pragma hemtt flag pe23_ignore_has_include
 	#if __has_include("\FIR_AirWeaponSystem_US_cfg\config.bin")
 		class AllVehicles;
 		class Air: AllVehicles

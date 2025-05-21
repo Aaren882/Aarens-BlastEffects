@@ -1,2 +1,0 @@
-"WW2_SPE_Assets_c_Weapons_InfantryWeapons_c",
-"WW2_SPE_Assets_c_Vehicles_Weapons_c",

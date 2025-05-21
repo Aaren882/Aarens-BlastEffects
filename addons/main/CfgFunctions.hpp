@@ -4,7 +4,7 @@ class CfgFunctions
 	{
 		class Main
 		{
-			file="MG8\ASBE\Functions";
+			file="\z\ASBE\addons\main\Functions";
 			class Init;
 			class effectFiredSmokeLauncher;
 			class Tracer_Detection;
