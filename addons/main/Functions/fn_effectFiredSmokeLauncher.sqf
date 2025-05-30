@@ -2,17 +2,18 @@
 Uses code from VBS2 Smoke launcher by Philipp Pilhofer (raedor) & Andrew Barron
 Edited by Aaren
 */
-private ["_v","_shells","_num","_vel","_useTDir","_angle","_dir","_deltaDir","_arc","_initDist","_posV","_Vdir","_vH","_vV","_smokeg"];
+private ["_config","_v","_shells","_num","_vel","_useTDir","_angle","_dir","_deltaDir","_arc","_initDist","_posV","_Vdir","_vH","_vV","_smokeg"];
 _v=_this select 0;
 _shells=[];
 
 
 //Read values from config
 
-_num=GetNumber (configFile >> "CfgVehicles" >> typeof _v >> "smokeLauncherGrenadeCount");
-_vel=GetNumber (configFile >> "CfgVehicles" >> typeof _v >> "smokeLauncherVelocity");
-_useTDir=GetNumber (configFile >> "CfgVehicles" >> typeof _v >> "smokeLauncherOnTurret");
-_angle=GetNumber (configFile >> "CfgVehicles" >> typeof _v >> "smokeLauncherAngle");
+_config = configOf _v;
+_num=getNumber (_config >> "smokeLauncherGrenadeCount");
+_vel=getNumber (_config >> "smokeLauncherVelocity");
+_useTDir=getNumber (_config >> "smokeLauncherOnTurret");
+_angle=getNumber (_config >> "smokeLauncherAngle");
 
 if (_num>0) then
 {
@@ -64,11 +65,11 @@ if (_num>0) then
 		sleep 0.7;
 		_sources = [];
 		{
-			_source2 = "#particlesource" createVehicleLocal getpos _x;
+			_source2 = "#particlesource" createVehicleLocal getPos _x;
 			_source2 setParticleClass "ASBE_WPTrails";
 			_sources set [count _sources,_source2];
 
-			_source3 = "#particlesource" createVehicleLocal getpos _x;
+			_source3 = "#particlesource" createVehicleLocal getPos _x;
 			_source3 setParticleClass "ASBE_WPCloud";
 			_sources set [count _sources,_source3];
 		} forEach _this;

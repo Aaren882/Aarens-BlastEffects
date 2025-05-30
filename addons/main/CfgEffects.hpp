@@ -438,7 +438,7 @@ class ASBE_WPTrailEffect
 		position[] = {0,0,0};
 		intensity = 1;
 		interval = 1;
-		lifeTime = 6;
+		lifeTime = 60;
 	};
 };
 //Chaff
