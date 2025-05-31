@@ -1,7 +1,7 @@
 params ["", "", "", "", "_ammo", "", "_projectile", ""];
 
 private _result = (call ASBE_fnc_Tracer_Detection) params ["_spawn","_setup"];
-private _cfgAmmo = configfile >> "CfgAmmo" >> _ammo;
+private _cfgAmmo = configFile >> "CfgAmmo" >> _ammo;
 
 if (
   (tracer_illuminate_list == "-") ||

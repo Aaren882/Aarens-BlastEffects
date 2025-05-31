@@ -55,7 +55,8 @@ class CfgCloudlets
 	class WPTrails;
 	class ASBE_WPTrails: WPTrails
 	{
-		lifeTime = 6;
+		lifeTime = 60;
+		lifeTimeVar = 3;
 		interval=0.01;
 		size[] = {0,0.5};
 		moveVelocity[] = {1,1,1};
@@ -69,7 +70,8 @@ class CfgCloudlets
 	class WPTrailEffect;
 	class ASBE_WPTrailEffect: WPTrailEffect
 	{
-		lifeTime = 6;
+		lifeTime = 10;
+		lifeTimeVar = 3;
 		color[] = 
 		{
 			{1,1,1,0},
@@ -79,14 +81,17 @@ class CfgCloudlets
 			{1,1,1,0.35},
 			{1,1,1,0}
 		};
+		size[] = {0.45,3,8};
+		sizeVar = 0.8;
 		moveVelocity[] = {0,1,0};
 		MoveVelocityVar[] = {0.5,1,0.5};
-		rubbing=6;
+		rubbing=1;
+		animationSpeed[] = {};
 	};
 	class WPCloud;
 	class ASBE_WPCloud: WPCloud
 	{
-		lifeTime = 20;
+		lifeTime = 6;
 		size[] = {0.5,8,12,20};
 		positionVar[] = {4,0,4};
 		moveVelocity[] = {0,-0.5,0};
@@ -724,12 +729,12 @@ class CfgLights
 		ambient[] = {1,0.4,0.12};
 		diffuse[] = {1,0.4,0.12};
 		brightness = 0.75;
-		intensity=500;
+		intensity=100;
 		position[] = {0,0,0};
 		useFlare=1;
 		drawLight = 1;
 		dayLight = 1;
-		flareSize=2;
+		flareSize=0.5;
 		flareMaxDistance=100;
 		/*class Attenuation
 		{

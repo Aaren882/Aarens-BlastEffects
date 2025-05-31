@@ -9,6 +9,6 @@ enabled = false # Default: true
 [version]
 major = 1 # Overrides path when set
 minor = 1
-patch = 0
+patch = 1
 
 git_hash = 0 # Default: 8
